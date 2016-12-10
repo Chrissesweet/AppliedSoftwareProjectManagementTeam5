@@ -30,6 +30,7 @@ CREATE TABLE `restaurant` (
   `city` varchar(100) DEFAULT NULL,
   `address` varchar(100) DEFAULT NULL,
   `menu` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`restaurantID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
