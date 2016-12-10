@@ -35,11 +35,11 @@ CREATE TABLE `restaurant` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 #
-# Structure for table "table"
+# Structure for table "tables"
 #
 
-DROP TABLE IF EXISTS `table`;
-CREATE TABLE `table` (
+DROP TABLE IF EXISTS `tables`;
+CREATE TABLE `tables` (
   `tableID` int(11) NOT NULL AUTO_INCREMENT,
   `nrOfSeats` int(11) DEFAULT NULL,
   `restaurantID` int(11) DEFAULT NULL,
