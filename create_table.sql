@@ -68,5 +68,5 @@ CREATE TABLE `reservation` (
   KEY `restaurant_reservation` (`restaurantID`),
   CONSTRAINT `customer_reservation` FOREIGN KEY (`customerID`) REFERENCES `customer` (`customerID`),
   CONSTRAINT `restaurant_reservation` FOREIGN KEY (`restaurantID`) REFERENCES `restaurant` (`restaurantID`),
-  CONSTRAINT `table_reservation` FOREIGN KEY (`tableID`) REFERENCES `table` (`tableID`)
+  CONSTRAINT `table_reservation` FOREIGN KEY (`tableID`) REFERENCES `tables` (`tableID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
