@@ -17,7 +17,7 @@ INSERT INTO customer   (customerID, name, telephoneNr, socialSecurityNr)
 					(8, 'Abhilash', '0700161808', '9206071118');
 
 -- Resturant
-INSERT INTO resturant  (restaurantID, restaurantName, telephoneNr, city, address, menu, passKey) 
+INSERT INTO restaurant  (restaurantID, restaurantName, telephoneNr, city, address, menu, passKey) 
 				VALUES  
 						(1, '5ish Resturant', '0739885701', 'Karlskrona', 'Minervagatan 1', 'A la Carte', '0001'),
 						(2, 'Seafood Resturant', '0739885702', 'Karlskrona', 'Minervagatan 2', 'Buffet lunch', '0002'),
