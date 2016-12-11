@@ -5,7 +5,6 @@
 
 /*!40101 SET NAMES utf8 */;
 
--- CUSTOMER TABLE
 INSERT INTO customer   (customerID, name, telephoneNr, socialSecurityNr) 
 			VALUES  (1, 'Mattias', '0700161801', '9206071111'),
 					(2, 'Kristian', '0700161802', '9206071112'),
@@ -21,7 +20,7 @@ INSERT INTO restaurant  (restaurantID, restaurantName, telephoneNr, city, addres
 				VALUES  
 						(1, '5ish Resturant', '0739885701', 'Karlskrona', 'Minervagatan 1', 'A la Carte', '0001'),
 						(2, 'Seafood Resturant', '0739885702', 'Karlskrona', 'Minervagatan 2', 'Buffet lunch', '0002'),
-						(3, 'Coffehouse', '0739885703', 'Karlskrona', 'Minervagatan 3', 'Coffe. Tea. Pastry. Salad', '0003') ''),
+						(3, 'Coffehouse', '0739885703', 'Karlskrona', 'Minervagatan 3', 'Coffe. Tea. Pastry. Salad', '0003'),
 						(4, 'Leaf Resturant', '0739885704', 'Karlskrona', 'Minervagatan 4', 'Buffet Dinner', '0004'),
 						(5, 'Michells Resturant', '0739885705', 'Karlskrona', 'Minervagatan 5', 'A la Carte', '0005'),
 						(6, 'Litlle Italy', '0739885706', 'Stockholm', 'Vinstagatan 1', 'A la Carte', '0006'),
@@ -79,7 +78,6 @@ INSERT INTO reservation   (reservationID, restaurantID, tableID, customerID, nam
 				(8, 5, 15, 1, 'Mattias', '2016-12-05', '19:00:00', '22:00:00'),
 				(9, 6, 17, 2, 'Kristian', '2016-12-05', '19:00:00', '22:00:00'),
 				(10, 7, 19, 1, 'Mattias', '2016-12-05', '19:00:00', '22:00:00');
-
 #
 
 #
