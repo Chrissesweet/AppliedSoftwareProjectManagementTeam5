@@ -43,7 +43,7 @@ CREATE TABLE `tables` (
   `tableID` int(11) NOT NULL AUTO_INCREMENT,
   `nrOfSeats` int(11) DEFAULT NULL,
   `restaurantID` int(11) DEFAULT NULL,
-  PRIMARY KEY (`tableID`),
+  PRIMARY KEY (`tableID`, `resturantID`),
   KEY `reataurant_table` (`restaurantID`),
   CONSTRAINT `reataurant_table` FOREIGN KEY (`restaurantID`) REFERENCES `restaurant` (`restaurantID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
