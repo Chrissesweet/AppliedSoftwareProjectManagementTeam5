@@ -28,7 +28,7 @@ INSERT INTO restaurant  (restaurantID, restaurantName, telephoneNr, city, addres
 						(8, 'Noodles and stuff', '0739885708', 'Stockholm', 'Vinstagatan 3', 'Buffet Dinner', '0008'),
 						(9, 'Pizzeria Rondellen', '0739885709', 'Stockholm', 'Vinstagatan 4', 'A la Carte', '0009'),
 						(10, 'Miami Vice', '0739885701', 'Helsingborg', 'Stortorget 1', 'A la Carte', '0010'),
-						(11, 'Steak & Burger', '0739885711', 'Helsingborg', 'Stortorget 2', 'Buffet Dinner', '0011'),
+						(11, 'SteaknBurger', '0739885711', 'Helsingborg', 'Stortorget 2', 'Buffet Dinner', '0011'),
 						(12, 'Shrimpy Fish', '0739885712', 'Ronneby', 'Havshamnen 1', 'A la Carte', '0012');
 
 -- TABLE
