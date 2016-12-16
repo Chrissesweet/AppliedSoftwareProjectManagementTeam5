@@ -42,8 +42,8 @@ DROP TABLE IF EXISTS `tables`;
 CREATE TABLE `tables` (
   `tableID` int(11) NOT NULL AUTO_INCREMENT,
   `nrOfSeats` int(11) DEFAULT NULL,
-  `restaurantID` int(11) DEFAULT NULL,
-  PRIMARY KEY (`tableID`, `resturantID`),
+  `restaurantID` int(11) NOT NULL,
+  PRIMARY KEY (`tableID`, `restaurantID`),
   KEY `reataurant_table` (`restaurantID`),
   CONSTRAINT `reataurant_table` FOREIGN KEY (`restaurantID`) REFERENCES `restaurant` (`restaurantID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
